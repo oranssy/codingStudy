@@ -1,0 +1,190 @@
+/* 웹 폰트 */
+/* Font Inconsolata */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Font AritaDotum */
+@font-face {
+    font-family: 'AritaDotum';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Thin.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Thin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Thin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Thin.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AritaDotum';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Light.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Light.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AritaDotum';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Medium.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AritaDotum';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-SemiBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-SemiBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-SemiBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-SemiBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AritaDotum';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/amore/AritaDotum-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+/* Tstory dracula */
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    line-height: 1.6;
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+    height: 100%;
+    font-family: 'Inconsolata', 'AritaDotum' !important;
+}
+
+code.hljs {
+    padding: 3px 5px;
+}
+
+.hljs {
+    color: #E9E9F4;
+    background: #1A1B26;
+}
+
+.hljs-comment,
+.hljs-meta {
+    color: #565f89;
+}
+
+.hljs-deletion,
+.hljs-doctag,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-selector-pseudo,
+.hljs-tag,
+.hljs-template-tag,
+.hljs-variable.language_ {
+    color: #f7768e;
+}
+
+.hljs-link,
+.hljs-literal,
+.hljs-number,
+.hljs-params,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable {
+    color: #ff9e64;
+}
+
+.hljs-attribute,
+.hljs-built_in {
+    color: #e0af68;
+}
+
+.hljs-keyword,
+.hljs-property,
+.hljs-subst,
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+    color: #7dcfff;
+}
+
+.hljs-selector-tag {
+    color: #73daca;
+}
+
+.hljs-addition,
+.hljs-bullet,
+.hljs-quote,
+.hljs-string,
+.hljs-symbol {
+    color: #9ece6a;
+}
+
+.hljs-code,
+.hljs-formula,
+.hljs-section {
+    color: #7aa2f7;
+}
+
+.hljs-attr,
+.hljs-char.escape_,
+.hljs-keyword,
+.hljs-name,
+.hljs-operator {
+    color: #bb9af7;
+}
+
+.hljs-punctuation {
+    color: #c0caf5;
+}
+
+.hljs {
+    background: #1a1b26;
+    color: #9aa5ce;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: 700;
+}
+
+/* code highlight 줄번호 */
+.hljs-ln-n:before {
+    color: #bfbfbf !important;
+    font-size: 0.8em;
+}
+
+.hljs-ln {
+    min-width: 100% !important;
+    table-layout: fixed;
+    font-size: 16px;
+}
+
+.hljs-ln-numbers {
+    width: 30px;
+}
+
+.hljs-ln tr {
+    border-bottom: 1px solid rgba(192, 197, 206, 0.1) !important;
+}
+
+.hljs-ln td {
+    color: #fff;
+}
