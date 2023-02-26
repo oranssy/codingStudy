@@ -18,8 +18,20 @@
 
 <body>
     <div class="container">
+        <div class="popUp">
+            <div class="popUp_cont">
+                <h2>JUST 쇼핑몰 팝업창 _제목</h2>
+                <p>팝업 내용을 입력하여 보여줍니다.</p>
+                <button>X 닫기</button>
+            </div>
+        </div>
+        <!-- //popupBox -->
+
         <header id="header">
-            <h1><a href="#"><img src="assets/img/webDesign_logo_w200h40_01.png" alt="JUST 쇼핑몰 로고"></a></h1>
+            <a class="header_logo" href="#" >
+                <h1 class="blind">JUST 쇼핑몰</h1>
+                <img src="assets/img/webDesign_logo_w200h40_01.png" alt="JUST 쇼핑몰 로고 01">
+            </a>
             <nav>
                 <ul class="menu_main">
                     <li class="menu_mainList">
@@ -93,26 +105,51 @@
                 <section id="tab_menu">
                     <h2 class="blind">탭 메뉴 _공지사항과 갤러리</h2>
                     <ul class="tab_menuTit">
-                        <li class="on"><a href="#">공지사항</a></li>
-                        <li><a href="#">갤러리</a></li>
+                        <li class="on"><a href="#" onclick="return false">공지사항</a></li>
+                        <li><a href="#" onclick="return false">갤러리</a></li>
                     </ul>
                     <div class="tab_menuDesc">
-                        <ul class="appear on">
+                        <ul class="notice on">
                             <li>
-                                <a href="#">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</a>
-                                <span>2023.02.24</span>
+                                <a href="#">
+                                    <span class="notice_tit">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</span>
+                                    <span class="notice_date">2023.02.26</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</a>
-                                <span>2023.02.24</span>
+                                <a href="#">
+                                    <span class="notice_tit">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</span>
+                                    <span class="notice_date">2023.02.26</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</a>
-                                <span>2023.02.24</span>
+                                <a href="#">
+                                    <span class="notice_tit">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</span>
+                                    <span class="notice_date">2023.02.26</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</a>
-                                <span>2023.02.24</span>
+                                <a href="#">
+                                    <span class="notice_tit">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</span>
+                                    <span class="notice_date">2023.02.26</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="gallery">
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/webDesign_gallery_wh150_01.png" alt="갤러리 이미지 01">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/webDesign_gallery_wh150_02.png" alt="갤러리 이미지 02">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/webDesign_gallery_wh150_03.png" alt="갤러리 이미지 03">
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -126,16 +163,28 @@
                 </section>
             </div>
             <!-- //contents -->
-
         </main>
         <!-- //main -->
-        <footer id="footer"></footer>
+
+        <footer id="footer">
+            <a  class="footer_logo"   href="#" onclick="return false">
+                <h3 class="blind">JUST 쇼핑몰</h3>
+                <img src="assets/img/webDesign_logo_w200h40_01.png" alt="JUST 쇼핑몰 로고 02">
+            </a>
+            <p class="copyright">COPYRIGHT 2023. JUST 쇼핑몰 all rights reserved.</p>
+            <div class="sns">
+                <a href="#" onclick="return false"><img src="assets/img/webDesign_sns_facebook.png" alt="페이스북"></a>
+                <a href="#" onclick="return false"><img src="assets/img/webDesign_sns_instagram.png" alt="인스타그램"></a>
+                <a href="#" onclick="return false"><img src="assets/img/webDesign_sns_twiiter.png" alt="트위터"></a>
+            </div>
+        </footer>
         <!-- //footer -->
     </div>
+    <!-- //container -->
 
     <!-- Jquery -->
     <script src="assets/js/jquery-3.6.3.min.js"></script>
-    <!-- slide & menu & popup -->
+    <!-- menu & slide & popup -->
     <script src="assets/js/scriptA1.js"></script>
 </body>
 </html>
