@@ -1,20 +1,22 @@
 // header menu
 $(function(){
-    $('.menu_main').mouseenter(function(){
-        $('.menu_sub').stop().slideDown(800);
+    $('.menu_mainList').mouseenter(function(){
+        $(this).find('.menu_sub').stop().slideDown();
     });
 
-    $('.menu_main').mouseleave(function(){
-        $('.menu_sub').stop().slideUp(500);
+    $('.menu_mainList').mouseleave(function(){
+        $('.menu_sub').stop().slideUp();
     });
 });
 
 // main slide
+$(function(){
+    $('.slide_piece:gt(0)').hide();
+});
+
 setInterval(function(){
-    $('.slide_wrap').animate({'margin-top':'-300'}, function(){
-        $('.slide_piece:first').appendTo('.slide_wrap');
-        $('.slide_wrap').css({'margin-top':'0'});
-    });
+    $('.slide_piece:first').fadeOut(1500).next().fadeIn(1500);
+    $('.slide_piece:first').appendTo('.slide_wrap');
 }, 3000);
 
 // tab_menu

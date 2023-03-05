@@ -47,8 +47,8 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid #62504b;
-    background-color: #f9eae5;
+    border: 1px solid #735fa6;
+    background-color: #ebe7f5;
     padding: 20px 30px;
     text-align: center;
     line-height: 2;
@@ -67,11 +67,11 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f9ecec;
+    background-color: #e8e6f8;
     padding: 0 30px;
 }
 .header_logo {
-    width: 200px;
+    width: 150px;
     height: 40px;
     display: inline-block;
 }
@@ -92,7 +92,7 @@ img {
     font-size: 18px;
 }
 .menu_mainList:hover .menu_mainTit {
-    background: #e77d7d;
+    background-color: #8067d4;
     color: #ffffff;
 }
 .menu_mainTit {
@@ -118,21 +118,20 @@ img {
     background-color: #ffffff;
 }
 .menu_subTit:hover a {
-    background: #f5b0b0;
+    background-color: #b6a4f1;
     color: #ffffff;
 }
 
-/* main _slide */
+/* main _slide*/
 #slide {
     width: 1200px;
     height: 300px;
-    overflow: hidden;
 }
 .slide_wrap {
-    width: 100%;
+    position: relative;
 }
 .slide_piece {
-    position: relative;
+    position: absolute;
 }
 .slide_piece a p {
     background-color: #ffffffa5;
@@ -143,7 +142,7 @@ img {
     right: 0;
     bottom: 0;
 }
-/* main _contents */
+/* main _contents*/
 .contents {
     display: flex;
 }
@@ -162,13 +161,13 @@ img {
 }
 .tab_menuTit li.on a,
 .tab_menuDesc .on {
-    background-color: #f1d8d1;
+    background-color: #d1d1f2;
 }
 .notice {
     padding: 15px 20px;
 }
 .notice li:hover {
-    text-decoration: wavy underline #dbada0;
+    text-decoration: wavy underline #a790e3;
     text-underline-position: under;
 }
 .notice li a {
@@ -195,12 +194,12 @@ img {
     width: 104%;
 }
 .gallery li:hover a img {
-    border: 2px solid #69463b;
+    border: 2px solid #735fa6;
 }
 #banner {
     width: 400px;
     height: 200px;
-    background-color: #f1c0b9;
+    background-color: #acace7;
 }
 #banner,
 #link {
@@ -220,7 +219,7 @@ img {
 #link {
     width: 400px;
     height: 200px;
-    background-color: #ffa3a3;
+    background-color: #897ac5;
 }
 
 /* footer */
@@ -229,11 +228,11 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f9ecec;
+    background-color: #e8e6f8;
     padding: 0 30px;
 }
 .footer_logo {
-    width: 200px;
+    width: 150px;
     height: 40px;
     display: inline-block;
 }
@@ -241,12 +240,3 @@ img {
     width: 100%;
     filter: grayscale(1);
 }
-.sns a {
-    width: 30px;
-    display: inline-block;
-    margin-left: 20px;
-}
-.sns a img {
-    width: 100%;
-}
-

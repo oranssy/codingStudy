@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>실기 예제 A2 _ 웹 디자인 기능사</title>
+    <title>실기 예제 A2 _웹디자인 기능사</title>
 
     <!-- meta tags -->
     <meta name="Generator" content="Visual Studio Code">
-    <meta name="Description" content="웹디자인 기능사 실기 예제 - A2 _Green 복지재단입니다.">
-    <meta name="Keywords" content="A2 _Green 복지재단">
+    <meta name="Description" content="웹디자인 기능사 실기 예제 - A2_그린 복지재단입니다.">
+    <meta name="Keywords" content="A2_그린 복지재단">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/cssA2.css">
@@ -18,13 +18,151 @@
 
 <body>
     <div class="container">
-        <header id="header"></header>
+        <div class="popUp">
+            <div class="popUp_cont">
+                <h2>그린 복지재단 팝업창 _제목</h2>
+                <p>입력한 팝업 내용이 표시됩니다.</p>
+                <button>X 닫기</button>
+            </div>
+        </div>
+        <!-- //popUp -->
+
+        <header id="header">
+            <a class="header_logo" href="#" >
+                <h1 class="blind">그린 복지재단</h1>
+                <img src="assets/img/webDesign_logo_w200h40_A2.png" alt="그린 복지재단 로고">
+            </a>
+            <div class="menu_bg"></div>
+            <nav>
+                <ul class="menu_main">
+                    <li class="menu_mainList">
+                        <a class="menu_mainTit" href="#">재단소개</a>
+                        <ul class="menu_sub">
+                            <li class="menu_subTit"><a href="#">설립 취지</a></li>
+                            <li class="menu_subTit"><a href="#">연혁</a></li>
+                            <li class="menu_subTit"><a href="#">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_mainList">
+                        <a class="menu_mainTit" href="#">후원하기</a>
+                        <ul class="menu_sub">
+                            <li class="menu_subTit"><a href="#">국내 후원</a></li>
+                            <li class="menu_subTit"><a href="#">국외 후원</a></li>
+                            <li class="menu_subTit"><a href="#">맞춤 후원</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_mainList">
+                        <a class="menu_mainTit" href="#">자료실</a>
+                        <ul class="menu_sub">
+                            <li class="menu_subTit"><a href="#">서식 자료실</a></li>
+                            <li class="menu_subTit"><a href="#">사진 자료실</a></li>
+                            <li class="menu_subTit"><a href="#">후원 양식</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_mainList">
+                        <a class="menu_mainTit" href="#">스토리</a>
+                        <ul class="menu_sub">
+                            <li class="menu_subTit"><a href="#">웹진</a></li>
+                            <li class="menu_subTit"><a href="#">보고서</a></li>
+                            <li class="menu_subTit"><a href="#">나의 후원</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <!-- //header -->
 
-        <main id="main"></main>
+        <main id="main">
+            <section id="slide">
+                <h2 class="blind">슬라이드 영역</h2>
+                <div class="slide_wrap">
+                    <div class="slide_piece">
+                        <a href="#">
+                            <p>슬라이드 내용 01</p>
+                            <img src="assets/img/webDesign_slide_w1200h300_01.png" alt="슬라이드 이미지 01">
+                        </a>
+                    </div>
+                    <div class="slide_piece">
+                        <a href="#">
+                            <p>슬라이드 내용 02</p>
+                            <img src="assets/img/webDesign_slide_w1200h300_02.png" alt="슬라이드 이미지 02">
+                        </a>
+                    </div>
+                    <div class="slide_piece">
+                        <a href="#">
+                            <p>슬라이드 내용 03</p>
+                            <img src="assets/img/webDesign_slide_w1200h300_03.png" alt="슬라이드 이미지 03">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- //slide -->
+
+            <div class="contents">
+                <section id="notice">
+                    <h2><a href="#">공지사항</a></h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="notice_tit">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</span>
+                                <span class="notice_date">2023.03.02</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="notice_tit">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</span>
+                                <span class="notice_date">2023.03.02</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="notice_tit">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</span>
+                                <span class="notice_date">2023.03.02</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="notice_tit">공지사항 내용 _공지사항 내용 _공지사항 내용 _공지사항 내용 _</span>
+                                <span class="notice_date">2023.03.02</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <!-- //notice -->
+                <section id="gallery">
+                    <h2><a href="#">갤러리</a></h2>
+                    <ul>
+                        <li><a href="#"><img src="assets/img/webDesign_gallery_wh150_04.png" alt="갤러리 이미지 01"></a></li>
+                        <li><a href="#"><img src="assets/img/webDesign_gallery_wh150_02.png" alt="갤러리 이미지 02"></a></li>
+                        <li><a href="#"><img src="assets/img/webDesign_gallery_wh150_05.png" alt="갤러리 이미지 03"></a></li>
+                    </ul>
+                </section>
+                <!-- //gallery -->
+                <section id="banner">
+                    <a href="#"><h2>배너</h2><img src="assets/img/webDesign_banner_w350h150.png" alt="배너 이미지"></a>
+                </section>
+                <!-- //banner -->
+            </div>
+            <!-- //contents -->
+        </main>
         <!-- //main -->
 
-        <footer id="footer"></footer>
+        <footer id="footer">
+            <a class="footer_logo" href="#">
+                <h3 class="blind">그린 복지재단</h3>
+                <img src="assets/img/webDesign_logo_w200h40_A2.png" alt="그린 복지재단 로고">
+            </a>
+            <p class="copyright">COPYRIGHT 2023. 그린 복지재단 all rights reserved.</p>
+            <div class="family_wrap">
+                <label for="family-site" class="blind">패밀리 사이트</label>
+                <select name="sites" id="family-site">
+                    <option value="">--패밀리사이트--</option>
+                    <option value="korea">한국복지재단</option>
+                    <option value="seoul">서울복지재단</option>
+                    <option value="gyeonggi">경기복지재단</option>
+                </select>
+            </div>
+        </footer>
         <!-- //footer -->
     </div>
     <!-- //container -->
