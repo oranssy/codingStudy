@@ -240,3 +240,30 @@ img {
     width: 100%;
     filter: grayscale(1);
 }
+.footer_cont {
+    width: 80%;
+}
+.footer_menu {
+    height: 50px;
+}
+.footer_menuList {
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    padding: 0 100px;
+}
+.footer_menuTit {
+    display: inline-block;
+}
+.footer_menuTit a {
+    padding: 0 32px;
+    border-right: 2px solid #8c87b5;
+}
+.footer_menuTit a:nth-child(4) {
+    border: none;
+}
+.copyright {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
