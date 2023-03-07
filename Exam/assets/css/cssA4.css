@@ -47,8 +47,8 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid #735fa6;
-    background-color: #ebe7f5;
+    border: 1px solid #595fb4;
+    background-color: #eeefff;
     padding: 20px 30px;
     text-align: center;
     line-height: 2;
@@ -67,8 +67,9 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e8e6f8;
+    background-color: #f6f7fe;
     padding: 0 30px;
+    position: relative;
 }
 .header_logo {
     width: 150px;
@@ -78,8 +79,19 @@ img {
 .header_logo img {
     width: 100%;
 }
+.menu_bg {
+    width: 100%;
+    height: 120px;
+    background-color: #9ca6f2;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: 50;
+    display: none;
+}
 #header nav {
     width: 600px;
+    margin-top: 50px;
 }
 .menu_main {
     display: flex;
@@ -92,7 +104,7 @@ img {
     font-size: 18px;
 }
 .menu_mainList:hover .menu_mainTit {
-    background-color: #8067d4;
+    background-color: #1b2ec1;
     color: #ffffff;
 }
 .menu_mainTit {
@@ -115,11 +127,11 @@ img {
     display: inline-block;
     text-align: center;
     line-height: 40px;
-    background-color: #ffffff;
+    color: #ffffff;
 }
 .menu_subTit:hover a {
-    background-color: #b6a4f1;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #333333;
 }
 
 /* main _slide*/
@@ -146,31 +158,26 @@ img {
 .contents {
     display: flex;
 }
-#tab_menu {
+#notice {
     width: 400px;
     height: 200px;
+    background-color: #dbe4ff;
+    padding: 20px 25px;
 }
-.tab_menuTit li {
+#notice h2 a,
+#gallery h2 a {
     display: inline-block;
     font-size: 18px;
     font-weight: 600;
+    background-color: #ffffffa0;
+    padding: 6px 10px;
+    margin-bottom: 5px;
 }
-.tab_menuTit li a {
-    display: inline-block;
-    padding: 10px 20px;
-}
-.tab_menuTit li.on a,
-.tab_menuDesc .on {
-    background-color: #d1d1f2;
-}
-.notice {
-    padding: 15px 20px;
-}
-.notice li:hover {
-    text-decoration: wavy underline #a790e3;
+#notice li:hover {
+    text-decoration: wavy underline #6d75e9;
     text-underline-position: under;
 }
-.notice li a {
+#notice li a {
     display: flex;
     justify-content: space-between;
     line-height: 1.97;
@@ -182,31 +189,32 @@ img {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.gallery {
-    padding: 18px 20px;
-    display: none;
-}
-.gallery li {
-    width: 32%;
-    display: inline-block;
-}
-.gallery li a img {
-    width: 104%;
-}
-.gallery li:hover a img {
-    border: 2px solid #735fa6;
-}
-#banner {
+#gallery {
     width: 400px;
     height: 200px;
-    background-color: #acace7;
+    background-color: #97b0fa;
+    padding: 20px 25px;
 }
-#banner,
+#gallery li {
+    width: 32%;
+    display: inline-block;
+    background-color: #ffffff;
+}
+#gallery li a img {
+    width: 100%;
+    opacity: 0.4;
+}
+#gallery li:hover a img {
+    border: 2px solid #1e28b4;
+    opacity: 1;
+}
 #link {
+    width: 400px;
+    height: 200px;
+    background-color: #7698ff;
     padding: 25px;
     position: relative;
 }
-#banner a h2,
 #link a h2 {
     font-size: 20px;
     position: absolute;
@@ -216,11 +224,6 @@ img {
     background-color: #ffffffa0;
     padding: 6px 10px;
 }
-#link {
-    width: 400px;
-    height: 200px;
-    background-color: #897ac5;
-}
 
 /* footer */
 #footer {
@@ -228,20 +231,11 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e8e6f8;
+    background-color: #f6f7fe;
     padding: 0 30px;
 }
-.footer_logo {
-    width: 150px;
-    height: 40px;
-    display: inline-block;
-}
-.footer_logo img {
-    width: 100%;
-    filter: grayscale(1);
-}
 .footer_cont {
-    width: 80%;
+    width: 85%;
 }
 #footer_menu {
     height: 50px;
@@ -250,14 +244,14 @@ img {
     display: flex;
     justify-content: space-between;
     line-height: 50px;
-    padding: 0 100px;
+    padding: 0 120px;
 }
 .footer_menuTit {
     display: inline-block;
 }
 .footer_menuTit a {
-    padding: 0 32px;
-    border-right: 2px solid #8c87b5;
+    padding: 0 44px;
+    border-right: 2px solid #8b95e6;
 }
 .footer_menuTit:nth-child(4) a {
     border: none;
