@@ -244,17 +244,10 @@ img {
     display: flex;
     justify-content: space-between;
     line-height: 50px;
-    padding: 0 120px;
+    padding: 0 100px;
 }
 .footer_menuTit {
     display: inline-block;
-}
-.footer_menuTit a {
-    padding: 0 44px;
-    border-right: 2px solid #8b95e6;
-}
-.footer_menuTit:nth-child(4) a {
-    border: none;
 }
 .copyright {
     height: 50px;
