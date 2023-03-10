@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+
+/* common */
+img {
+    vertical-align: top;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* popUp */
+.popUp {}
+
+/* header */
+#header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff9e8;
+}
+.header_inner {
+    
+}
