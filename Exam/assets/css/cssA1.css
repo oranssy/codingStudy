@@ -92,7 +92,7 @@ img {
     font-size: 18px;
 }
 .menu_mainList:hover .menu_mainTit {
-    background: #e77d7d;
+    background-color: #e77d7d;
     color: #ffffff;
 }
 .menu_mainTit {
@@ -118,7 +118,7 @@ img {
     background-color: #ffffff;
 }
 .menu_subTit:hover a {
-    background: #f5b0b0;
+    background-color: #f5b0b0;
     color: #ffffff;
 }
 

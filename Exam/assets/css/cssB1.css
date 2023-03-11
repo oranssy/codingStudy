@@ -44,6 +44,55 @@ img {
     align-items: center;
     background-color: #fff9e8;
 }
-.header_inner {
-    
+.header_inner {}
+.header_logo {
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+}
+.header_logo img {
+    width: 100%;
+}
+#header nav {
+    width: 600px;
+}
+.menu_main {
+    display: flex;
+    justify-content: space-between;
+}
+.menu_mainList {
+    position: relative;
+}
+.menu_mainList > a {
+    font-size: 18px;
+}
+.menu_mainList:hover .menu_mainTit {
+    background-color: #ed9551;
+    color: #ffffff;
+}
+.menu_mainTit {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+.menu_sub {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.menu_subTit a {
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+.menu_subTit:hover a {
+    background-color: #ffb881;
+    color: #ffffff;
 }
